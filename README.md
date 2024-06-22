@@ -27,15 +27,16 @@
 
 **Slide 4: MongoDB - Strengths and Weaknesses**
 
-* Strengths:
-    * Flexible document model for diverse data structures.
-    * Easier setup and management compared to Druid.
-    * Well-suited for ad-hoc queries and data exploration.
-    * Integrates seamlessly with Spring Boot applications.
-    * Supports efficient data import and export (including S3).
-* Weaknesses:
-    * May not achieve the same real-time performance as Druid for specific workloads.
-    * Requires careful schema design for optimal querying.
+Strengths:
+Flexible document model for diverse data structures.
+Easier setup and management compared to Druid.
+Well-suited for ad-hoc queries and data exploration.
+Optimized for time series data with built-in time series collections.
+Integrates seamlessly with Spring Boot applications.
+Supports efficient data import and export (including S3).
+Weaknesses:
+May not achieve the same real-time performance as Druid for specific workloads.
+Requires careful schema design for optimal querying.
 
 **Slide 5: Cost Comparison (Placeholder - Fill in details)**
 
@@ -57,12 +58,13 @@
 
 **Slide 8: Conclusion**
 
-* Summarize the key benefits of transitioning to MongoDB.
-    * Improved flexibility for evolving data structures.
-    * Easier data management and reduced complexity.
-    * Seamless integration with existing Spring Boot environment.
-    * Efficient S3 integration for archiving and disaster recovery.
-* Propose a migration plan and timeline for a smooth transition.
+Summarize the key benefits of transitioning to MongoDB, including the advantages of MongoDB Time Series Collections:
+Improved flexibility for evolving data structures.
+Easier data management and reduced complexity.
+Seamless integration with existing Spring Boot environment.
+Efficient S3 integration for archiving and disaster recovery.
+Optimized storage and query performance for time series data.
+Propose a migration plan and timeline for a smooth transition.
 
 **Slide 9: Next Steps**
 
